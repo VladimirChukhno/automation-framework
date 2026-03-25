@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "balance": { "type": "integer" }
+  },
+  "required": ["id", "name", "email", "balance"]
+}
